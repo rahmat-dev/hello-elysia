@@ -6,7 +6,9 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@t3-oss/env-core": "^0.7.1",
+    "elysia": "latest",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "bun-types": "latest"
